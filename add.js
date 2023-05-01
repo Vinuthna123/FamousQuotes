@@ -1,6 +1,5 @@
 
 const addButton = document.querySelector('button');
-
 addButton.addEventListener('click', function () {
 
     const homeSection = document.querySelector('.home');
