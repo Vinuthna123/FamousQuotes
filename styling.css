@@ -1,4 +1,4 @@
-/* Global styles */
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -7,13 +7,9 @@ body {
     padding: 0;
     }
     
-    a {
-    text-decoration: none;
-    color: #333;
-    }
+   
     
-    /* Header styles */
-    header {
+    .top {
     background-color: #333;
     color: #fff;
     display: flex;
@@ -41,8 +37,8 @@ body {
     color: #fff;
     }
     
-    /* Home section styles */
-    #home {
+
+    .home {
     background-color: #f7f7f7;
     padding: 2rem;
     text-align: center;
@@ -67,14 +63,14 @@ body {
     background-color: #555;
     }
     
-    /* About section styles */
-    #about {
+   
+    .desc {
     background-color: #fff;
     padding: 2rem;
     }
     
-    /* Contact section styles */
-    #contact {
+ 
+    .contact_page {
     background-color: #f7f7f7;
     padding: 2rem;
     }
@@ -84,8 +80,7 @@ body {
     margin-bottom: 0.5rem;
     }
     
-    form input,
-    form textarea {
+    form input, form textarea {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -106,7 +101,7 @@ body {
     background-color: #555;
     }
     
-    /* Footer styles */
+
     footer {
     background-color: #333;
     color: #fff;
